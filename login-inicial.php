@@ -17,18 +17,20 @@
     </div> --->
 
 <!-- Local Login -->
-
 <div class="form">
     <h1>LOGIN</h1>
     <br><br>
     <p>Realize o seu login para ter<br>acesso ao sistema.</p>
     <br><br>
     <div class="campos">
-        <input type="text" placeholder="Usuário">
+    <form action="testLogin.php" method="POST">
+
+        <input type="text" name="usuario" placeholder="Usuário">
         <br><br>
-        <input type="password" placeholder="Senha">
+        <input type="password" name="senha" placeholder="Senha">
          <br><br></div>
-    <button>Acessar Sistema</button>
+    <input class="inputSubmit" type="submit" name="submit" value="Acessar Sistema">
+    </form>
 </div>
 
 </body>

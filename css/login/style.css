@@ -36,7 +36,7 @@ input {
     border-radius: 10px;
 }
 
-button {
+.inputSubmit {
     border: none;
     padding: 15px;
     background-color: brown;
@@ -47,7 +47,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.inputSubmit:hover {
     background-color: crimson;
 
 }
@@ -63,173 +63,93 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 768px){
+
+@media only screen and (max-width: 950px) {
     .form {
-        background-color: rgba(0, 0, 0, 0.9);
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%,-50%);
-        padding: 80px;
-        border-radius: 10px;
-        color: white;
-        width: 20%;
-        height: 15%;
+        width: 25%;
     }
-
-    h1 {
-        position: absolute;
-        top: 3vh;
-        left: 9vh;
-    }
-
-    p {
-        position: absolute;
-        top: 8vh;
-        left: 5vh;
-    }
-
     input {
-        position: absolute;
-        padding: 4px;
-        left: 5vh;
+        left: 1.5vh;
+        position: relative;
     }
-
-    button {
-        position: absolute;
-        top: 20vh;
-        left: 7vh;
-        width: 50%;
-    }
-
 }
 
-@media screen and (max-width: 755px){
+@media only screen and (max-width: 600px) {
     .form {
-        background-color: rgba(0, 0, 0, 0.9);
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%,-50%);
-        padding: 80px;
-        border-radius: 10px;
-        color: white;
-        width: 20%;
-        height: 15%;
+        width: 25%;
     }
-
-    h1 {
-        position: absolute;
-        top: 3vh;
-        left: 14vh;
-    }
-
-    p {
-        position: absolute;
-        top: 10vh;
-        left: 8vh;
-    }
-
-    .campos {
-        position: absolute;
-        padding: 4px;
-        left: 2vh;
-        top: 17vh;
-    }
-
-    button {
-        position: absolute;
-        top: 28vh;
-        left: 10vh;
-        width: 50%;
-    }
-    body {
-        font-family: sans-serif;
-        background-image: url("../../img/login.jfif");
-        background-repeat: repeat;
-    }
-
-}@media screen and (max-width: 410px){
-    .form {
-        background-color: rgba(0, 0, 0, 0.9);
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%,-50%);
-        padding: 80px;
-        border-radius: 10px;
-        color: white;
-        width: 20%;
-        height: 13%;
-    }
-
-    h1 {
-        position: absolute;
-        top: 3vh;
-        left: 6vh;
-    }
-
-    p {
-        position: absolute;
-        top: 8vh;
-        left: 2vh;
-    }
-
     input {
-        position: absolute;
-        padding: 4px;
-        left: 2vh;
+        left: -4vh;
+        position: relative;
     }
-
-    button {
-        position: absolute;
-        top: 20vh;
-        left: 4vh;
-        width: 65%;
-    }
-
 }
 
-@media screen and (max-width: 375px){
+@media only screen and (max-width: 400px) {
     .form {
-        background-color: rgba(0, 0, 0, 0.9);
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%,-50%);
-        padding: 80px;
-        border-radius: 10px;
-        color: white;
-        width: 20%;
-        height: 13%;
+        width: 25%;
     }
-
-    h1 {
-        position: absolute;
-        top: 3vh;
-        left: 12vh;
-        font-size: 24px;
+    input {
+        left: -7vh;
+        position: relative;
     }
+}
 
-    p {
-        position: absolute;
-        top: 8vh;
-        left: 7vh;
-        font-size: 12px;
+@media only screen and (max-width: 300px) {
+    .form {
+        width: 25%;
     }
-
-    .campos {
-        position: absolute;
-        padding: 4px;
-        left: 1vh;
-        top: 14vh;
+    input {
+        left: -10vh;
+        position: relative;
     }
+}
 
-    button {
-        position: absolute;
-        top: 26vh;
-        left: 6vh;
-        width: 65%;
+@media only screen and (max-width: 412px) {
+    .form {
+        width: 25%;
     }
+    input {
+        left: -6vh;
+        position: relative;
+    }
+}
 
+@media only screen and (max-width: 820px) {
+    .form {
+        width: 25%;
+    }
+    input {
+        left: -0.5vh;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .form {
+        width: 25%;
+    }
+    input {
+        left: 0.5vh;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .form {
+        width: 25%;
+    }
+    input {
+        left: -5vh;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .form {
+        width: 25%;
+    }
+    input {
+        left: -11vh;
+        position: relative;
+    }
 }
