@@ -1,7 +1,235 @@
 * {
     margin: 0;
     padding: 0;
-    background-image: url("../../img/login.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%,-50%);
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url("../../img/login.jfif");
+}
+
+.form {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 10px;
+    color: white;
+}
+
+input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+button {
+    border: none;
+    padding: 15px;
+    background-color: brown;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: crimson;
+
+}
+
+h1 {
+    color: crimson;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 768px){
+    .form {
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        padding: 80px;
+        border-radius: 10px;
+        color: white;
+        width: 20%;
+        height: 15%;
+    }
+
+    h1 {
+        position: absolute;
+        top: 3vh;
+        left: 9vh;
+    }
+
+    p {
+        position: absolute;
+        top: 8vh;
+        left: 5vh;
+    }
+
+    input {
+        position: absolute;
+        padding: 4px;
+        left: 5vh;
+    }
+
+    button {
+        position: absolute;
+        top: 20vh;
+        left: 7vh;
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 755px){
+    .form {
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        padding: 80px;
+        border-radius: 10px;
+        color: white;
+        width: 20%;
+        height: 15%;
+    }
+
+    h1 {
+        position: absolute;
+        top: 3vh;
+        left: 14vh;
+    }
+
+    p {
+        position: absolute;
+        top: 10vh;
+        left: 8vh;
+    }
+
+    .campos {
+        position: absolute;
+        padding: 4px;
+        left: 2vh;
+        top: 17vh;
+    }
+
+    button {
+        position: absolute;
+        top: 28vh;
+        left: 10vh;
+        width: 50%;
+    }
+    body {
+        font-family: sans-serif;
+        background-image: url("../../img/login.jfif");
+        background-repeat: repeat;
+    }
+
+}@media screen and (max-width: 410px){
+    .form {
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        padding: 80px;
+        border-radius: 10px;
+        color: white;
+        width: 20%;
+        height: 13%;
+    }
+
+    h1 {
+        position: absolute;
+        top: 3vh;
+        left: 6vh;
+    }
+
+    p {
+        position: absolute;
+        top: 8vh;
+        left: 2vh;
+    }
+
+    input {
+        position: absolute;
+        padding: 4px;
+        left: 2vh;
+    }
+
+    button {
+        position: absolute;
+        top: 20vh;
+        left: 4vh;
+        width: 65%;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .form {
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        padding: 80px;
+        border-radius: 10px;
+        color: white;
+        width: 20%;
+        height: 13%;
+    }
+
+    h1 {
+        position: absolute;
+        top: 3vh;
+        left: 12vh;
+        font-size: 24px;
+    }
+
+    p {
+        position: absolute;
+        top: 8vh;
+        left: 7vh;
+        font-size: 12px;
+    }
+
+    .campos {
+        position: absolute;
+        padding: 4px;
+        left: 1vh;
+        top: 14vh;
+    }
+
+    button {
+        position: absolute;
+        top: 26vh;
+        left: 6vh;
+        width: 65%;
+    }
+
 }
